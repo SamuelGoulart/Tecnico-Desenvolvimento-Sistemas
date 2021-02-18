@@ -1,0 +1,9 @@
+Caracteres e tabelas de caracteres
+
+Microprocessador /Memórias[Ram/Rom]/ Barramentos
+
+* Números: Binários => Tensão e corrente elétrica
+
+* Tabela ASCII [8 bits, 2 elevado a 8 = 256 caracteres]
+
+* Tabela Unicode [16 bits, 2 elevado 16 = 65536 caracteres]

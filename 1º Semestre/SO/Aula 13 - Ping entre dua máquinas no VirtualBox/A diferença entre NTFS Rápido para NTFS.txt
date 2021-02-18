@@ -1,0 +1,1 @@
+A diferença entre NTFS Rápido para NTFS,é que o NTFS ele analisa se tem setores defeituosos no HP, o NTFS não analisa

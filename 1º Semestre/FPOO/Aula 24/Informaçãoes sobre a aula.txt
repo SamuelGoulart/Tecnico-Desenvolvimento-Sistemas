@@ -1,0 +1,25 @@
+programa orientado a objeto --> 
+
+O que fizemos até agora
+programação estruturada de paradigma imperativo
+
+Sempre começamos no java com a palavra class, porque é classe
+
+
+Classe Conta
+Está entre {} Atributo da classe ou Propriedade da classe
+
+Conta{ Tipo
+       Saldo
+       Número
+       Titular}
+
+
+Métodos{
+depositar()  
+transferir()
+sacar()
+}
+
+packet é a pasta
+

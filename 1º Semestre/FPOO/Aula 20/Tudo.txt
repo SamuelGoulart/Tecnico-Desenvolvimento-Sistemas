@@ -1,0 +1,151 @@
+ 
+*** Tipos primitivos de variÃ¡veis
+
+** NumÃ©ricos para nÃºmeros inteiros
+
+byte
+short
+int 
+log
+
+** NumÃ©ricos para nÃºmeros decimais
+
+float
+double
+
+** Outros tipos de variÃ¡veis primitivos
+
+char => character => caracter -> letra/nÃºmero/especiais
+
+Exemplos:
+
+letra: a, b, c, ...
+nÃºmero: 7, 5, ...
+especiais: @, #, $, %, *, ...
+
+char letra = 'a';
+
+* haspas " "    ==>     haspas duplas
+* apÃ³strofo ' ' ==>     haspas simples
+
+String nome = "Ana Maria";
+
+char exemplo = 'a';
+
+String exemplo2 = "ab";
+
+*******************************************
+
+MÃ©todos da classe string
+
+String nome = "Ana Maria";
+String frase = "O rato roeu a roupa do rei de Roma";
+
+nomeQualquer() => faz algo
+
+** MÃ©todo da classe String: length()
+
+nome.length()
+
+frase.length()
+
+* Length ==> comprimento da string, retorna a quantidade de caracteres de uma string.
+
+** Exemplo:
+
+String nome = "Ana Maria";
+System.out.println(nome.length());
+
+****************************************************
+
+Caracteres e tabelas de caracteres
+
+Microprocessador/MemÃ³rias[Ram/Rom]/Barramentos
+
+* NÃºmeros: BinÃ¡rios => TensÃ£o e corrente elÃ©trica
+
+* Tabela ASCII [8 bits, 2 elevado a 8 = 256 caracteres]
+
+* Tabela Unicode [16 bits, 2 elevado 16 = 65536 caracteres]
+
+*********************************************************
+
+Estruturas de repetiÃ§Ã£o
+
+Estruturas de repetiÃ§Ã£o por meio de contagem
+
+** Java hÃ¡ trÃªs estruturas de repetiÃ§Ã£o [LaÃ§os, loop]
+
+* for
+* while
+* do while
+
+** LaÃ§o for
+
+for (inicializaÃ§Ã£o ; teste lÃ³gico ; atualizaÃ§Ã£o)
+
+for (inÃ­cio da contagem ; fim da contagem ; passo)
+
+* Contagem iniciando em 1, atÃ© 5, como passo de 1.
+
+* Contagem iniciando em 0, atÃ© 7, como passo de 2.
+
+* Contagem iniciando em 1, atÃ© 10, como passo de 3.
+
+*** Exemplo 1:
+Contagem iniciando em 1, atÃ© 5, como passo de 1.
+
+for (inicializaÃ§Ã£o ; teste lÃ³gico ; atualizaÃ§Ã£o)
+
+for ( int i = 1 ;  i < 5 ; i = i + 1 ) {
+   System.out.println(i);
+}
+
+
+class Moldura {
+  public static void main(String args[]) {
+    String frase = "Bom dia turma DS1-M";
+    char barra = '\u2588';
+    for (int i=0 ; i < frase.length() ; i = i + 1) {
+      System.out.print(barra);
+    }
+    System.out.println("\n" + frase);
+    for (int i=0 ; i < frase.length() ; i = i + 1) {
+      System.out.print(barra);
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

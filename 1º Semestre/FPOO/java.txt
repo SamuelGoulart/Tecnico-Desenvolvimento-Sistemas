@@ -1,0 +1,46 @@
+get --> Obter o valor
+set --> Definir o valor
+
+Funcionamento básico do Computador
+
+Entrada 
+Processamento
+saída
+
+
+Exemplo:
+/***************************************/
+ContaPedro = Referência para o objeto 
+New = Cria uma novo a conta
+Conta contaPedro = new Conta;
+/**************************************/
+
+Como colocar um alguma informação da propriedade;
+
+Como não consigo fazer referencia direta porque ele está privado, mas eu teho o método setTitular que indiretamente vai colocar o nome do Pedro dentro do parâmetro
+
+contaPedro.SetTitular("Pedro");
+********************************************************
+Como fazer para pegar o nome do pedro?
+
+Como não consigo fazer referencia direta porque ele está privado, mas eu teho o método getTitular
+
+1) Informa a referência para o objeto = (contaPedro)
+2) .
+3)coloca o método getTitular
+
+System.out.println(contaPedro.getTitular());
+
+
+*********************************************************
+ChequeEspecial = 1000
+
+Como pegar esse valor é colocar dentro de uma variável?
+double x = contaPedro.getChequeEspecial();
+
+**********************************************************
+O atributo de uma classe pode ser uma outra classe
+O atributo de um objeto pode ser um outro objeto
+
+
+

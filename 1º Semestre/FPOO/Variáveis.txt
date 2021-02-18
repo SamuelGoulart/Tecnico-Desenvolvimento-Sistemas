@@ -1,0 +1,27 @@
+Variáveis
+
+É componente presente em qualquer linguagem de programação
+
+Variável um espaço reservado (alocado) em memória (RAM) para guardar uma informação de tipo preestabelecido.
+
+* Tipos de dados em java
+
+Tipo de dados | Tamanho
+-----------------------
+byte          | 1 byte [8 bits]
+short         | 2 byte [16 bits]
+int           | 4 byte [32 bits]
+long          | 8 byte [64 bits]
+
+* Exemplo de como criar uma variável em Java
+
+byte numero;
+short numero2;
+int numero3;
+long  numero4;
+
+*****************************************************
+
+Delimitação
+
+Ciência -> Matémática | Ciência da computação

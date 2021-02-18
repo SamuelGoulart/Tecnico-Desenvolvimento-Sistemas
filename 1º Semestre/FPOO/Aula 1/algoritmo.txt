@@ -1,0 +1,98 @@
+﻿
+Fundamentos Programação Orientada a Objetos
+
+Algoritmo
+
+    * Descrição narrativa
+    * Diagrama de blocos
+    
+Introdução Ling. de programação
+
+    * Interpretadas
+    * Compilador
+    
+Lógica de programação
+
+* JAVA
+
+Variáveis
+EStruta de decisão
+Estrutura de repetição
+Arrays (Vetores e Matrizes)
+Métodos
+Classes e objetos
+Tratamento de excessões
+Interface gráfica
+
+
+*** 
+Aplicativos
+
+Plataformas in cloud
+* www.repl.it
+
+* JDK
+* Editor de texto (Atom, Sublime Text, NotePad++)
+* IDE (Eclipse, ...)
+
+**********************************
+
+    Algoritmo
+    
+* Passo à passo (preciso) para a resolução de um problema.
+
+Ex: Fazer café
+
+1º Esquentar a água
+
+2º Colocar café no coador
+
+3º Despejar a água fervida no coador com o café
+
+4º ...
+
+
+Ingredientes: Pó de café
+
+Grãos de café -> Etapa intermediária [Moer os graos]
+
+Métodos, Função, Sub-rotina
+
+
+******************************
+
+Algoritmo
+
+O que eu preciso para construir um algoritmo?
+
+* Entrada: Ingredientes
+* Processamento: Algoritmo
+* Saída: café feito e quente
+
+PROBLEMA: Reaquecer o café
+
+
+*********************************
+
+PROBLEMA: Calcular a média aritmética entre duas notas.
+
+Entrada? nota1 e nota2
+
+Processamento?
+* Algoritmo
+
+1º Obter as notas;
+
+2º Somar as duas notas;
+
+3º Dividir o resultado do passo anterior por dois;
+
+4º Exibir (entregar) o resultado.
+
+
+Saída? Média aritmética
+
+** Média aritmética?
+Somar tudo e dividir pela quantidade.
+
+

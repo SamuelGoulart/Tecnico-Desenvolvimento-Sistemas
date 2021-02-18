@@ -1,0 +1,92 @@
+﻿// Se um número é positivo, negativo ou se é o zero.
+
+// Métodos da classe Scanner => java.util
+
+import java.util.Scanner;
+
+class PositivoNegativo {
+  public static void main(String args[]) {
+    Scanner ler = new Scanner(System.in);
+    
+    System.out.print("\nDigite um número: ");
+    double numero = ler.nextDouble();
+    if (numero > 0) {
+      System.out.println(numero + " é positivo");
+    }
+    else {
+      if (numero < 0) {
+        System.out.println(numero + " é negativo");
+      }
+      else {
+        System.out.println(numero + " é o zero");
+      }
+    }
+  }
+}
+//**************************************************
+
+** Entrada de dados
+
+Classe: JOptionPane
+
+Pacote: javax.swing
+
+Métodos:
+
+* Entrada de dados: showInputDialog()
+show    :   mostrar
+input   :   entrada
+dialog  :   diálogo [caixa de diálogo => janela]
+
+* Saída de dados: showMessageDialog()
+show    :   exibir
+message :   mensagem
+dialog  :   diálogo [caixa de diálogo => janela]
+
+
+*** Método showInputDialog() sempre retorna texto.
+
+** Métodos de conversão de dados [parse]
+
+Byte.parseByte()     => converte de texto para byte
+Short.parseShort()    => converte de texto para short
+Integer.parseInt()      => converte de texto para int
+Long.parseLong()     => converte de texto para long
+Float.parseFloat()    => converte de texto para float
+Double.parseDouble()   => converte de texto para double
+
+
+** Classe associada aos tipos primitivos
+
+Pacote: java.lang
+
+byte        =>      Byte
+short       =>      Short
+int         =>      Integer
+long        =>      Long
+float       =>      Float
+double      =>      Double
+
+
+// Informar se um número é positivo, negativo ou o zero
+
+import javax.swing.JOptionPane;
+
+class MaiorMenor {
+  public static void main(String args[]) {
+    JOptionPane ler = new JOptionPane();
+    String texto = ler.showInputDialog(null, "Digite um número: ");
+    double numero = Double.parseDouble(texto);
+
+    if (numero > 0) {
+      ler.showMessageDialog(null, numero + " é positivo");
+    }
+    else {
+      if (numero < 0) {
+        ler.showMessageDialog(null, numero + " é negativo");
+      }
+      else {ler.showMessageDialog(null, numero + " é zero");
+      }
+    }
+  }
+}

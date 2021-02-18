@@ -1,0 +1,79 @@
+Elaborar um algoritmo na forma de “Descrição narrativa” para cada um dos casos:
+23/09/2020
+
+
+
+
+Calcular a área de um retângulo; [base * altura] 
+
+
+
+Entrada de Dados:
+
+1º Obter a base;
+
+
+2º Obter a altura;
+
+Processamento: 
+3º Multiplicar base * altura
+
+Saida de dados: 
+4º Exibir o resultado 
+
+
+
+ 
+
+Calcular a área de um triângulo; [base * altura / 2] 
+
+
+
+Entrada de Dados:
+1º Obter a base;
+
+
+2º Obter a altura;
+
+Processamento: 
+3º Multiplicar base * altura / 2
+
+Saida de dados: 
+4º Exibir o resultado 
+
+
+
+
+
+
+ 
+
+
+Calcular o perímetro de uma circunferência; [2 * p * r] 
+
+
+Entrada de Dados:
+1º Obter o raio
+
+Processamento: 
+2º Multiplicar 2 * p * r
+
+Saida de dados: 
+3º
+Exibir o resultado 
+
+
+
+
+Transforme a idade em segundos; [idade * 365 * 24 * 60 * 60]
+
+Entrada de Dados:
+1º Obter idade
+
+Processamento: 
+2º Multiplicar idade * 365 * 24 * 60 * 60
+
+Saida de dados: 
+
+3º
+Exibir o resultado 

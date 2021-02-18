@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<title> Exercicio de Listas </title>
+	</head>
+	<body bgcolor="#000000" text="#000000" background="imagens/fundo3.jpg">
+	<!-- 
+		bgcolor - troca a cor de fundo do site
+		text - troca a cor da letra de todo o site
+		background - coloca uma imagem de fundo no site (tomar cuidado pois a imagem vai se replicar caso for menor do que o tamanho do navegador, para tratar isso apenas no CSS)
+	
+	-->
+		<!-- ALTERNATIVA 01 -->
+		<h1>Listas Encadeadas</h1>
+		<ol>
+			<li>Times de Futebol</li>
+				<ol type="a">
+					<li>Corinthians</li>
+					<li>
+						<font color="green">
+							Palmeiras
+						</font>
+					</li>
+					<li>São Paulo</li>
+					<li>Santos</li>
+				</ol>
+			<li>Seleções de Futebol</li>
+				<ul type="disc">
+					<li>Argentina</li>
+					<li>Alemanha</li>
+					<li>Chile</li>
+					<li>Brasil</li>
+				</ul>
+		</ol>
+		
+		<!--ALTERNATIVA 02 (Importante para fazer menu e submenu em CSS)-->
+		<ol>
+			<li>
+				Times de Futebol
+				<ol type="a">
+					<li>Corinthians</li>
+					<li>
+						<font color="green">
+							Palmeiras
+						</font>
+					</li>
+					<li>São Paulo</li>
+					<li>Santos</li>
+				</ol>
+			</li>
+			<li>
+				Seleções de Futebol
+				<ul type="disc">
+					<li>Argentina</li>
+					<li>Alemanha</li>
+					<li>Chile</li>
+					<li>Brasil</li>
+				</ul>
+			</li>
+		</ol>
+		<!-- 
+			<img src ="" - caminho da imagem
+				 width="" - Largura da imagem
+				 height="" - Altura da imagem
+				 border="" - coloca borda na imagem
+				 alt = "" - texto alternativo para quando a imagem não carregar (é obrigatório a sua utilização)
+				 title ="" - permite colocar um titulo na imagem, que será exibido quando o usuário posicionar o mouse sobre a imagem
+				 
+				 Tipos de imagens que podem ser utilizadas no site
+					.jpg
+					.png (imagens com fundo transparente)
+					.gif/ .gif animado (não recomendado, pois tem uma qualidade muito baixa) 
+					.svg (Tipo de imagens vetorizadas)
+				
+		
+		-->
+		<img src="imagens/brasil.png" width="180" height="200" border="10" alt="Logo do Brasil" title="Logotipo da Seleção do Brasil">
+		
+		<img src="imagens/holanda.jpg" width="180" height="200" border="10" alt="Logo da Holanda" title="Logotipo da Seleção da Holanda">
+		
+		
+	</body>
+</html>

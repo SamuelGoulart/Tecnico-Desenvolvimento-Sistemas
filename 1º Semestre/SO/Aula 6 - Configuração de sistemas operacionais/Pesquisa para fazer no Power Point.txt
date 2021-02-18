@@ -1,0 +1,70 @@
+Trabalho no Power Point:
+
+
+
+Windows 10 - acesso as configurações básicas:
+
+1) tecla Windows.
+2) Digite: configurações.
+
+
+3) Sistema - anote a resolução de sua tela.
+4) Dispositivos - caso esteja disponível opção Bluetooth, faça a conexão com seu celular.
+
+
+5) Rede e Internet - verifique a velocidade através de status.
+
+-Conexão discada - neste ítem você deve pesquisar como era seu funcionamento e quais as velocidades disponíveis a alguns anos atrás.
+
+-VPN - Quando seria possível utilizar tal recurso?
+
+-Modo avião - explique o que acontece quando se ativa o modo avião.
+
+-Hotspot móvel - caso seu computador tenha esta opção, explique.
+
+-Registre o uso de dados nos últimos 30 dias.
+
+
+6) Personalização
+-Tela de Fundo - altere
+-Cores -> 
+altere a cor
+-Tela de Bloqueio -> altere
+-Temas 
+-> altere
+-Fontes -> quais e quantos tipos estão disponíveis?
+-iniciar 
+-> como podemos alterar as pastas que são exibidas em Iniciar?
+
+-Barra de tarefas -> Como podemos mudar sua posição, por exemplo, colocar a barra de tarefas na posição superior da tela?
+
+7) Aplicativos 
+Quantos aplicativos existem em sua máquina?
+
+
+Qual o maior?
+
+Qual o menor?
+
+Exclua um aplicativo que você não utilize.
+
+
+8) Contas
+Suas Informações -> 
+altere sua foto
+
+9) Hora e idioma -
+-Data e hora - 
+qual fuso horário está definido em sua máquina?
+
+10)Jogos -
+
+11) Facilidade de acesso - explique como funcionam os recurso "Legendas Ocultas", "Controle com os olhos", Lente de aumento.
+
+12) Pesquisar
+-Permissões e histórico, explicar modos "restrito", "moderado" e "desativado'.
+
+13) Atualização e Segurança
+-descubra quando foi realizada a última atualização
+
+velocidade da conexão (máximo de 56,6 kbps), 

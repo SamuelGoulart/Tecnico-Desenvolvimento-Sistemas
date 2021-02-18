@@ -1,0 +1,5 @@
+ethernet -> 10Mbps
+
+fastEthernet -> 100Mbps
+
+gigaEthernet -> 1.000Mbps ou 1Gbps

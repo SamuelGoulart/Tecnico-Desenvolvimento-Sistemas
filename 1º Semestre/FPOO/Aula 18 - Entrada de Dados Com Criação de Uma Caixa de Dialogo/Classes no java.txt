@@ -1,0 +1,49 @@
+// Toda classe = começa com a letra Maiúscula
+// Exemplo: System
+
+// classe = é uma estrutura de dados, o java tem um estrutura particular que é as classes
+// O objetivo da classes é uma representação de algumas coisas que exitem no mundo, é criado atráves da abstração
+
+// Classes ==> são pacotes
+
+// Exite pacote especial, pois as classes desse pacote podem ser utilizadas diretamente:
+// Não preciso importar uma classe.
+//
+// java.lang
+// Exemplos de classes do pacote java.lang: Math, System, String
+// Math.pow(base, expoente)
+
+// Métodos da classe Scanner => java.util
+
+
+// Documentação do java
+// Métodos da classe Scanner?
+
+------------------------------------------------------------
+Todos esse métodos leem somente texto.
+
+// nextLine()  == lê um palavra inteira
+// next()      == lê a primeira palavra somente
+
+------------------------------------------------------------
+Todos esse métodos para baixo, só leem números
+
+Só lê número inteiro(Sem virgula).
+// nextByte()  == lê o que foi digito, e converte para byte
+// nextShort() == lê o que foi digito, e converte para short
+// nextInt()   == lê o que foi digito, e converte para int
+// nextLong()  == lê o que foi digito, e converte para long
+
+Lê número decimal(Com virgula).
+// nextFloat() == lê o que foi digito, e converte para float 
+// nextDouble() ==
+
+// float  32 bits / double 64 bits
+-------------------------------------------------------------
+
+// Text => string
+// Três tipos de string
+
+string numérica => "123" == Só possui numeros
+string literal => "Bom dia" = Só possui letras
+string alphanumérica => "abc123@#" = parte e letra, a outra e numéro, podendo tamb´me conter caracteres especiais

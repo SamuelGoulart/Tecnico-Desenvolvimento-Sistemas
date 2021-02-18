@@ -1,0 +1,37 @@
+Registro do Windows
+
+O registro é um banco de dados utilizado para armazernar configurações e opçôes do Mircrosoft windows
+
+A estrutura do Registro
+
+O registro do Windows consite de uma estrutura hierárquica dividida em seis subárvores. Você pode usar o programa Regedit.exe para ver uma representação gráfica do registro.
+
+HKEY_CLASSES_ROOT
+HKEY_CURRENT_USER
+HKEY_LOCAL_MACHONE
+HKEY_USERS
+HKEY_CURRENT_CONFIG
+
+HKEY_CLASSES_ROOT
+
+Este ramo contêm informaçôes sobre as extensões dos arquivos;
+associações entre arquivos e aplicativos para suportar a funcionalidade de 
+arrastar/soltar (drag and drop); informações sobre os atalhos do Windows, 
+informações OLE, e aspectos centrais da interface do usuário do Windows.
+
+HKEY_CURRENT_USER
+
+Neste ramo estão as informações relativas ao usuário que está utilizando o computador
+
+HKEY_LOCAL_MACHINE
+
+Este ramo contém iformações específicas sobre o tipo de hardware, software, e
+outras preferêmcias de um dado PC
+
+HKEY_USERS
+
+Este ramo contém preferência individuais para cada usuário do computador.
+
+HKEY_CURRENT_CONFIG
+
+Este ramo é ligado a seção apropriada HKEY_LOCAL_MACHINE para a configuração de hardware atual

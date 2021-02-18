@@ -1,0 +1,71 @@
+Atividade: Pesquisa sobre Dual Boot
+
+entregar em bloco de notas
+
+O que é, pra que serve e como fazer
+
+Ubuntu e quer instalar Windows
+
+**********************************
+O que é?
+
+Multi boot é um sistema que permite a escolha de um entre vários sistemas operacionais instalados num mesmo microcomputador quando o mesmo é ligado. Normalmente é chamado de dual boot pelo fato de que na maioria dos casos possui 'dois' sistemas operacionais. 
+
+**********************************
+
+Pra que serve?
+
+Para ter dois ou mais sistemas operacionais instalados.
+
+um computador dual boot permite que você trabalhe em dois sistemas operacionais em um único computador. Instalar um sistema operacional Windows em uma partição e um sistema operacional Linux em outro. Isso proporciona maior flexibilidade para a execução de programas.
+
+
+como fazer?
+1. Faça o backup do seu sistema atual!
+
+O risco de perda de dados é geralmente muito baixo nesse tipo de processo, mas não custa se garantir, não é verdade? Certifique-se de guardar uma cópia de todo o disco rígido de sua máquina, além de seus backups de rotina.
+
+***********************************
+
+2. Crie uma nova partição no disco rígido.
+
+É necessário um espaço separado para abrigar o novo sistema operacional e tudo o que vem junto com ele. O Windows 10 por exemplo precisa de cerca de 20 GB, mas você também vai precisar de espaço para todos os seus programas e arquivos, então certifique-se de ter espaço suficiente para isso em seu HD.
+
+************************************
+
+3. Compre uma cópia do S.O, caso a licença não seja gratuita.
+
+você pode precisar alterar as configurações da BIOS para que ele faça o boot a partir do drive que contém os arquivos de instalação do S.O, lá você escolhe qual S.O inicialize primeiro.
+
+Para escolher, qual S.O inicializar primeiro
+
+Para fazer isso, reinicie o computador e, enquanto ele estiver reiniciando, clique na tecla de atalho para acessar essas informações. Provavelmente a tecla será Del, F2 ou F12. Cada tipo de BIOS tem uma tecla diferente para acessá-la. A informação de como fazer isto é mostrada quando o computador inicia, geralmente as informações estão em inglês e aparecem rapidamente.
+
+Ao entrar no menu (tela azul) mude as configurações para que a primeira escolha para a inicialização seja o DVD ou o drive USB, dependendo de onde você armazenou seus arquivos de instalação da nova S.O. Então vá em frente e deixe o computador continuar sua inicialização.
+
+Menu de inicialização Windows
+Primeiro você terá que aceitar a licença de instalação do software, e a tela seguinte irá perguntar que tipo de instalação deseja. Escolha a opção 'Personalizada'. Em seguida, selecione a partição do disco rígido recém-criada, e que você, provavelmente, nomeou como "o nome da nova s.o" para facilitar a sua localização. O instalador vai levar cerca de 20 minutos para completar a tarefa.
+
+
+
+************************************
+4. Aproveite o sistema operacional que istalou.
+
+Sempre que inicializar o computador, vai ver uma tela perguntando qual sistema operacional deseja usar. Caso você demore mais do que 30 segundos para selecionar alguma das duas opções,  será escolhido automaticamente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+******

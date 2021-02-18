@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+    <head>
+        <title>
+            Criando uma Wireframe com css
+        </title>
+        <meta charset="utf-8" >
+    </head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/jquery.js"  ></script>
+    <script src="js/ancora.js"></script>
+    <body>
+          <!-- 
+              tags para estrutura do site HTML5
+              <header> - representa a seção do cabeçalho do site
+              <footer> - representa a seção  do rodapé do site
+              <nav> - representa a seção menu do site, porém deve ser utilizada apenas no menu relevante do site
+              <section> - reprsenta as seçôes de conteúdo do site (Assuntos)
+              <article> - representa um conteúdo de terceiros, que podemos colocar no site (Citação de um autor, blog, fórum, área de reportagens que vão vir de outros site)
+              <aside> - representa uma área de propagandas de outro site (Divulgar produtos de terceiros, anúncios)
+              <figure> - indica que ali terá uma imagem (<img>), que é relevante para o assunto do seu site
+                :não colocar em icones, imagem de terceiros: é quando usar background-image: url();
+                :colocar no logo por exemplo
+              <figcaption> - permite colocar uma legenda na imagem (não é obrigatório)
+                :usar dentro da tag <figure>, junto com a tag <img>
+                :Não pode usar quando colocar a imagen dentro da tag background-image: url();
+             ----------------------------------------------------------------------------------------------
+              <video> - permite colocar um video
+              <canvas> - permite criar um desenho (gráfico)
+              <audio> - permite colocar audio
+           -->
+
+        <!-- Seção de Menu -->
+      
+        <header id="containerMenu" >
+            <div class="conteudo">
+                <div id="logo" >
+                    <figure>
+                        <!-- Entrar com tag <img> -->
+                        <figcaption></figcaption>
+                    </figure>
+
+                </div>
+                <nav id="menu" >
+                   <ul id="listMenu" >
+                           <li class="menuItem">Home</li>
+                           <li class="menuItem">
+                               <!-- Ancora é o recurso de fazer links para seçôes de conteúdo, e não para outras páginas -->
+                               <a href="#containerEmpresa"> Empresa</a>
+                            </li>
+                           <li class="menuItem">
+                               <a href="#containerServicos">  Serviços</a>
+                           </li>
+                           <li class="menuItem">
+                               <a href="#containerProdutos">  Produtos</a>
+                            </li>
+                           <li class="menuItem">
+                               <a href="#contaiverContatos">Contatos</a>
+                            </li>
+                   </ul>
+                </nav>
+                <div id="redesSocias" >
+                        <div class="iconeRedeSocial"></div>
+                        <div class="iconeRedeSocial"></div>
+                        <div class="iconeRedeSocial"></div>
+                </div>
+            </div>
+
+           
+        </header> 
+
+        <!-- SEÇÃO DO SLOGAN  -->
+        <div id="containerSlogan" >
+                <div id="slogan" >
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque inventore ex nam adipisci quisquam eaque? Minima aliquam officiis necessitatibus. 
+                    </p>
+                    <hr>
+                </div>
+        </div>
+
+        <!-- Seção da Empresa -->
+        <div id="containerEmpresa" >
+                <section class="conteudo" >
+                    <h1>Sobre a Empresa</h1>
+                    <div id="sobreEmpresa" >
+                        <div id="imagemSobre">
+                            
+                        </div>
+                        <div id="textoSobre">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio accusamus delectus repellendus blanditiis eos veniam incidunt iure. Odit fuga amet nam facere aliquid, fugit id velit aut, nulla rerum maxime.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quis omnis ipsum vel rem tenetur, minima voluptates nesciunt ratione! Dolorum sit sint tempore pariatur fugiat, quam obcaecati laboriosam quaerat minus.</p>
+                        </div>
+                        <div id="galeriaSobreLeft" >
+                            <div class="imagemGaleriaSobre"></div>
+                            <div class="imagemGaleriaSobre"></div>
+                        </div>
+                        <div id="galeriaSobreRight" >
+                            <div class="imagemGaleriaSobre"></div>
+                            <div class="imagemGaleriaSobre"></div>
+                        </div>
+                    </div>  
+                    <div id="historicoEmpresa" >
+                        <h2>Histórico da Empresa</h2>
+                        <div id="historico">
+                            <div id="iconeTextoHistorico" >
+                                <div id="iconeHistorico"></div>
+                                <div id="textoHistoricoPrinc">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus aliquam ea officiis praesentium! Porro culpa.</p>
+                                </div>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus sequi aliquam nobis debitis beatae eius quibusdam expedita quia sapiente atque iusto, eos sit et, commodi architecto</p>
+                            </div>
+                        </div>
+                        <div id="imagemHistorico">
+                            <div id="iconeTextoHistorico"> </div>
+                            <div id="textoComplHistorico">
+                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div id="textoHistorico">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus alias animi numquam autem reiciendis soluta, excepturi ratione labore eligendi quisquam nihil nesciunt voluptatem quae dolores esse adipisci dolore rem magni.</p>
+                        </div>
+                    </div>
+                </section>
+         </div>
+
+         <!-- Seção de Serviços -->
+         <div id="containerServicos" >
+              <section class="conteudo" >
+                   <h1>Serviços</h1>
+                   <div id="servicosLeft" >
+                       <div id="textoServicoLeft"></div>
+                       <div id="galeriaServicoLeft">
+                           <div class="imagemGaleriaServicos"></div>
+                           <div class="imagemGaleriaServicos"></div>
+                           <div class="imagemGaleriaServicos"></div>
+                           <div class="imagemGaleriaServicos"></div>
+                       </div>
+                   </div>
+                   <div id="servicosRight">
+                       <h2>Serviços em Destaque</h2>
+                       <div id="servicosDestaque" >
+                            <div id="imagemServicosDestaque" >
+
+                            </div>
+                            <div id="textoServicosDestaque" >
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sunt quia nemo assumenda debitis tenetur.
+                            </div>
+                       </div>
+                       <div id="servicosDestaqueTexto" >
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quod animi iure minima quibusdam quas nam mollitia, rerum eos aperiam omnis labore, neque nostrum ratione, ducimus fugiat eum. Consequuntur, tenetur?</p>
+                       </div>
+                   </div>
+              </section>
+         </div>
+         
+         <!-- Seção de Produtos -->
+         <div id="containerProdutos" >
+             <section class="conteudo" >
+                    <h1>Produtos</h1>
+                    <div class="cardProdutos">
+                        <h2>Produto 1</h2>
+                         <div class="imagemCard"></div>
+                         <div class="textoCard" >
+                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam veniam rem eveniet nesciunt obcaecati asperiores magni ipsa amet quo. </p>
+                         </div>
+                    </div>
+                    <div class="cardProdutos">
+                        <h2>Produto 1</h2>
+                        <div class="imagemCard"></div>
+                        <div class="textoCard" >
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam veniam rem eveniet nesciunt obcaecati asperiores magni ipsa amet quo. </p>
+                        </div>
+                    </div>
+                    <div class="cardProdutos">
+                        <h2>Produto 1</h2>
+                        <div class="imagemCard"></div>
+                        <div class="textoCard" >
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam veniam rem eveniet nesciunt obcaecati asperiores magni ipsa amet quo. </p>
+                        </div>
+                    </div>
+             </section>
+         </div>
+         <!-- Seção de Contatos -->
+         <div id="containerContatos" >
+             <section class="conteudo" >
+                  <h1>Contatos</h1>
+                  <div id="mapaContato" ></div>
+                  <div id="dadosContato">
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum repudiandae quia culpa cum ea incidunt laboriosam architecto itaque quidem molestias, maiores </p>
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum repudiandae quia culpa cum ea incidunt laboriosam architecto itaque quidem molestias, maiores </p>
+                  </div>
+                  <div id="imagemFilialContato">
+                      <div class="fotoFilial"></div>
+                      <div class="fotoFilial"></div>
+                  </div>
+                  <div id="enderecoFilialContato">
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis culpa in quisquam quidem neque itaque corrupti </p>
+                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis culpa in quisquam quidem neque itaque corrupti </p>
+                  </div>
+             </section>
+         </div>
+
+         <!-- Seção do Rodapé -->
+         <footer id="contaiverRodape" >
+              <div class="conteudo" >
+                  <div id="direitosReservados" >
+                       <p>
+                         © Copyright 2003 <br>   
+                         Todos os direitos reservados - Política de Privacidade
+                      </p>
+                  </div>
+              </div>
+         </footer>
+    </body>
+</html>

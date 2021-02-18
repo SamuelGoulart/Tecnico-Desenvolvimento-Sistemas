@@ -1,0 +1,9 @@
+Ethernet --> 10mbps
+FastEthernet --> 100mbps
+GigabitEthernet --> 1.000mbps / 1Gbps
+
+https://penseemti.com.br/artigos/tipos-de-switchs/#:~:text=Camada%203%3B-,Portas%20de%2010%20Gbps%20ou%20maior%3B,Maior%20processamento.
+Tipos de Switchs
+Switch core
+Switch de distribuição
+Switch de Acesso

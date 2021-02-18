@@ -1,0 +1,54 @@
+    #listaFrutas {
+        width: 140px;
+        height: 150px;
+        background-color: darksalmon;
+        /*padding - permite ajustar os espaços internos de um elemento
+    
+    padding-left
+    padding-right
+    padding-top
+    padding-bottom
+     */
+        padding-left: 10px;
+    }
+    
+    .itens {
+        width: 130px;
+        height: 30px;
+        background-color: aqua;
+        color: white;
+        /* Define o marcador a ser utilizado */
+        /* Letras em números romanos */
+        /* list-style: upper-roman; */
+        /* Letras Maiúscula */
+        /* list-style: upper-alpha; */
+        /* list-style: upper-latin; */
+        list-style: none;
+    }
+    
+    #listaMaterias {
+        width: 550px;
+        height: 150px;
+        background-color: #000000;
+    }
+    /* Trabalhando com hierarquia de elementos */
+    
+    #listaMaterias li {
+        width: 120px;
+        height: 30px;
+        color: blue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        /* Para deixar uma lista na horizontal podemos utilizar dois comandos:
+        
+        display: inline; - não é tão eficiente pois permanece a formtação dos elementos
+        
+        display: inline; */
+        float: left;
+        list-style: none;
+        text-align: center;
+    }
+    
+    #listaMaterias li:hover {
+        background-color: #000000;
+        color: chartreuse;
+    }

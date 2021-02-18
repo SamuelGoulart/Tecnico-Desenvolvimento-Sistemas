@@ -1,0 +1,44 @@
+O Termo tolerância a falhas refere-se ao fato de um sistema ser imine a todo e qualquer tipo de falha.
+
+Classificação de falhas
+
+Falhas fisicas
+
+Falhas Humanas
+
+
+RAID - Redundant Array of Independent Disks ou Conjunto Redundante de discos independentes
+
+Conceito - Fazer com que vários discos rigidos trabalhem como sendo um só
+
+Tipos de RAID
+Temos:
+RAID 0
+RAID 1
+RAID 5
+E outros, tais como:
+RAID 0+1
+
+*****************************************
+raid 0 - Nesta configuração, todos os HDs funcionam como se fossem um único disco.
+
+Quando grava-se algo, o arquivo é então fragmentado nos vários discos, assim todos os discos
+trabalham juntos
+
+Vantagem - Rápida leitura dos arquivos
+
+Desvantagem - Cado ocorra uma falha em algum setor de qualuqer disco,
+o arquivo provavelmente será corrompido.
+RAID 1+0
+O tipo de RAID escolhido, dependerá da aplicação.
+****************
+
+RAID 1 
+ Nesta configuração, se utilizarmos dois hds, os dados serão escritos nos dois simultaneamente, um máster e um para backup.
+ No RAID 1 - Um hd inteiro é sacrificado para se fazer o espelhamento
+
+RAID 5 
+ Esta configuração é indicada para servidores de alta capacidade de processamneto e seu sistema exige no mínimo três hds. Para realizar a redundância dos dados, utiliza-se um sistema de paridade, para cada fração de informação de informação que é duplicada, uma fração de dados adicionais é criado contendo os códigos de paridade
+ No RAID 5 - Não sacrificio 
+Se perder um HD, você não perderá informaçãoes
+

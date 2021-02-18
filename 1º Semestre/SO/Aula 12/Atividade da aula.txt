@@ -1,0 +1,81 @@
+1-cadastro no site
+2-pesquisa sobre os temas
+3-montagem da apresentação no site do PowToon
+
+
+Segunda-feira, devem entregar o link da apresentação para o professor
+Dentro de um arquivo texto e cada aluno vai colocar seu respectivo link
+Atividade sobre Linux 
+
+
+
+Tipos de usuários
+
+Administração de usuários e permissões de acesso.
+
+=======================================================
+
+-explicar sobre arquivos básicos de administração de usuários
+
+-passwd
+
+shadow
+group
+
+gshadow
+
+
+
+-comandos para criação e exclusão de usuários
+
+-comando para alterar dados de um usuário
+
+-comando para criar grupo de usuário
+
+-comando para modificar senha de usuário
+
+
+-explicar sobre permissão de usuário, comando chmod
+
+
+
+
+Administração de diretórios e arquivos
+
+=======================================================
+
+-comando para criação de diretorio
+
+-comando para mover diretorio para outro local
+
+-comando para exlusão de diretorio
+
+-comando para verificar o conteudo de um diretorio
+
+-comando para verificar o conteúdo de um "arquivo" sem ter que edita-lo
+
+-comando para criação de um arquivo sem ter que usar um editor de texto
+
+
+
+
+Administração de sistema
+
+=======================================================
+
+-comando para instalar progrmas no Debian
+
+-comando para remover um programa
+
+-comando para atualizar sistema operacional
+
+-comando para delisgar sistema
+-comando para reiniciar sistema
+-comando para reiciciar um serviço (exemplo netwoking)
+
+1. Concluir trabalho sobre Cluster
+2. Faremos um trabalho de apresentação utilizando PowToon
+
+
+https://www.powtoon.com/online-presentation/gdz3szOsaG4/?mode=movie&show_share_dialog=true#/
+https://www.powtoon.com/c/gdz3szOsaG4/1/m

@@ -1,0 +1,5 @@
+Comando ver as partas abertas
+netstat
+
+Compara as portas abertas e fechadas
+netstat -na

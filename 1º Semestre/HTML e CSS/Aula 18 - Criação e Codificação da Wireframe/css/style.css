@@ -1,0 +1,471 @@
+/* RESET DO CSS */
+
+/* (*) - Seletor universal, asterisco, padroniza a formatação para todos os elementos do HTML */
+*{
+    margin: 0px;
+    padding: 0px;
+     
+    /* Trava o elemento para não sofrer mudanças de tamanho por causa do padding */
+    box-sizing: border-box ;
+}
+
+
+.conteudo{
+    /* Largura padrão do site */
+    width: 1300px;  
+    height: inherit;
+
+    /* Centralizar um elemento */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1, h2{
+    width: 100%;
+    height: 50px;
+    font-family: arial;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+h1::first-letter{
+    font-size: 1.8rem;
+    color: brown;
+}
+
+h2{
+    font-size: 1.3em;
+    text-transform: none;
+    color: brown;
+}
+
+P{ 
+  width: inherit;
+  /* Estabelece uma altura minima para a caixa */
+  min-height: 20px;
+
+  /* Permite deixar o elemento automatico para a altura */
+  height: auto;
+
+  /* Trava a caixa para haver não  estouro com barra de rolagem */
+  overflow: hidden;
+
+  margin-bottom: 20px;
+
+  font-family: verdana;
+  font-size: 1em;
+  line-height: 1.5;
+
+  /* Estica as linhas para que cada linha tenha a mesma largura (como em jornais e revistas) */
+  text-align: justify;
+
+  padding-left: 20px;
+  padding-right: 20px; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* ******** FIM Das CLASSES DE PADRONIZAÇÃO (GLOBAIS)****************** */
+/* SEÇÃO DO MENU */
+
+#containerMenu{
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    /* Permite fixar  */
+    position: fixed;
+     
+    /* Permite atribuir um valor na ordem de criação para um elemento, quanto maior for o número, significa que esse item ficará acima de outros elementos */
+    z-index: 999;
+}
+
+#logo{
+    width: 150px;
+    /* inherit - serve para herdar o valor do elemento pai*/
+    height: inherit;
+    background-color: rosybrown;
+    float: left;
+}
+
+#menu{
+    width: 900px;
+    height: inherit;
+    float: left;
+}
+
+#redesSocias{
+    width: 200px;
+    height: inherit;
+    float: right;
+}
+
+#listMenu{
+    width:  inherit;
+    height: inherit;
+   
+}
+
+.menuItem{
+     width: 180px;
+    height: inherit;
+    list-style: none;
+    font-family: Verdana;
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-align: center;
+    float: left;
+    padding-top: 10px;
+}
+
+.menuItem:hover{
+    background-color: darkorchid;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.iconeRedeSocial{
+      width: 50px;
+      height: 50px;
+      background-color: darkgray;
+      float: left;
+      margin-right: 10px;
+}
+
+/* SEÇÃO DO SLOGAN */
+
+#containerSlogan{
+   max-width: 100%;
+    height: 500px;
+    background-image: url(../imagens/images.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 150px;
+}
+
+#slogan{
+    width: 500px;
+    height: 150px;
+    background-color: rgba(0,0,0,0.7);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#slogan p{
+    font-family: cursive;
+    font-size: 1em;
+    color: #cccccc;
+    line-height: 2;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+/* SEÇÃO DA EMPRESA */
+
+#containerEmpresa{
+    width: 100%;
+    height: 600px;
+    background-color: aliceblue;
+}
+
+#sobreEmpresa{
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+}
+
+#historicoEmpresa{
+    width: 100%;
+    height: 250px;
+    background-color: bisque;
+}
+
+#imagemSobre{
+    width: 300px;
+    height: inherit;
+    background-color: coral;
+    float: left;
+    margin-right: 15px;
+}
+
+#textoSobre{
+    width: 600px;
+    height: inherit;
+    background-color: cadetblue;
+    float: left;
+    margin-right: 15px;
+}
+
+#galeriaSobreLeft, 
+#galeriaSobreRight{
+   width: 170px;
+   height: inherit;
+   background-color: chocolate;
+   float: left;
+   margin-right: 15px;
+}
+
+.imagemGaleriaSobre{
+    width: 150px;
+    height: 130px;
+    background-color: brown;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#historico{
+    width: 550px;
+    height: 200px;
+    background-color: cadetblue;
+    float: left;
+    margin-right: 15px;
+}
+
+#imagemHistorico{
+    width: 300px;
+    height: 200px;
+    background-color: crimson;
+    float: left;
+    margin-right: 15px;
+}
+#textoHistorico{
+    width: 400px;
+    height: 200px;
+    background-color: slateblue;
+    float: left;
+    margin-right: 15px;
+}
+
+#iconeTextoHistorico,
+#textoComplHistorico{
+     width: inherit;
+    background-color: cornflowerblue;
+    margin-bottom: 10px; 
+    height: 80px;
+}
+#iconeTextoHistorico{
+    height: 100px;
+}
+
+#iconeHistorico,
+#textoHistoricoPrinc{
+
+    height: inherit;
+    background-color: crimson;
+    float: left;
+}
+
+#iconeHistorico{
+    width: 120px;
+    margin-right: 30px;
+}
+
+#textoHistoricoPrinc{
+    width: 380px;
+}
+
+/* SEÇÃO DE SERVIÇOS */
+#containerServicos{
+    width: 100%;
+    height: 500px;
+    background-color: darkslateblue;
+
+}
+#servicosLeft,
+#servicosRight{
+    height: 450px;
+    background-color: aqua;
+    float: left;
+    margin-right: 50px;
+}
+#servicosLeft{
+    width: 650px;
+}
+#servicosRight{
+    width: 550px;
+}
+
+#textoServicoLeft,
+#galeriaServicoLeft{
+    width: inherit;
+    background-color: beige;
+    margin-bottom: 15px;
+}
+
+#textoServicoLeft{
+    height: 250px;
+}
+
+#galeriaServicoLeft{
+    height: 185px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.imagemGaleriaServicos{
+    width: 150px;
+    height: 150px;
+    background-color: cadetBlue;
+    float: left;
+    margin-right: 10px;
+}
+
+#servicosDestaque,
+#servicosDestaqueTexto{
+       width: inherit;
+       background-color: cadetblue;
+       margin-bottom: 10px;
+}
+
+#servicosDestaque{
+    height: 250px;
+}
+
+#servicosDestaqueTexto{
+    height: 140px;
+}
+#imagemServicosDestaque,
+#textoServicosDestaque{
+    height: inherit;
+    float: left;
+    background-color: brown;
+    margin-right: 15px;
+}
+
+#imagemServicosDestaque{
+    width: 200px;
+}
+
+#textoServicosDestaque{
+    width: 320px;
+}
+/* SEÇÃO DE PRODUTOS */
+#containerProdutos{
+    width: 100%;
+    height: 600px;
+    background-image: url(../imagens/imagem-fotografia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.cardProdutos{
+    width: 300px;
+    height: 380px;
+    background-color: #ffffff;
+    float: left;
+    margin-right: 50px;
+    margin-left: 70px;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+#containerProdutos h1{
+    margin-bottom: 50px;
+    background-color: rgba(255,255,255,0.5);
+    padding-top: 5px;
+
+}
+
+#cardProduto h2{
+    text-align: center;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    color: darkblue;
+}
+
+.imagemCard{
+    width: 150px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: cadetblue;
+    margin-bottom: 15px;
+}
+
+.textoCard{
+   width: inherit;
+   height: 200px;
+   background-color: cadetblue;
+}
+
+/* SEÇÃO DE CONTATOS */
+
+#containerContatos{
+    width: 100%;
+    height: 450px;
+    background-color: burlywood;
+}
+
+#mapaContato{
+    width: 350px;
+    height: 350px;
+    background-color: aqua;
+    float: left;
+    margin-right: 20px;
+}
+
+#dadosContato{
+    width: 400px;
+    height: 350px;
+    background-color: cadetblue;
+    float: left;
+    margin-right: 20px;
+}
+
+#imagemFilialContato{
+    width: 210px;
+    height: 350px;
+    background-color: aqua;
+    float: left;
+    margin-right: 20px;
+    padding-top: 15px;
+}
+
+#enderecoFilialContato{
+    width: 280px;
+    height: 350px;
+    background-color: cadetblue;
+    float: left;
+
+}
+
+.fotoFilial{
+    width: 180px;
+    height: 150px;
+    background-color: azure;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* SEÇÃO DO RODAPÉ*/
+#containerRodape{
+    width: 100%;
+    height: 60px;
+    background-color: #000000;
+}
+
+#direitosReservados{
+    width: 600px;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#direitosReservados p{
+    text-align: center;
+    color: #cccccc;
+    font-size: 0.9em;
+}

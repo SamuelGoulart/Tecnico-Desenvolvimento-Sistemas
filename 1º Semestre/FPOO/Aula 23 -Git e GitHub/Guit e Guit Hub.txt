@@ -1,0 +1,58 @@
+Git Bash
+----------------------------------------------------------
+git master
+git init = O comando git init cria um novo repositório do Git. Ele pode ser usado para converter um projeto existente e não versionado em um repositório do Git ou inicializar um novo repositório vazio.
+O comando git status exibe as condições do diretório de trabalho e da área de staging.
+Ele permite que você veja quais alterações foram despreparadas, quais não foram e quais arquivos não estão sendo monitorados pelo Git.
+git status
+
+git config --local user.name "Samuel Goulart"
+git config --local user.email "samuel.a.goulart@gmail.com"
+"
+
+
+
+
+----------------
+git add . ==> Para a pasta toda
+git add nome do arquivo ==> para somente o arquivo em específico
+git log ==> Deste seu último commit até o primeiro mostra
+
+gitignore é um arquivo que criamos na raiz do nosso projeto para poder ignorar arquivos e pastas do versionamento. 
+Dentro do . gitignore colocamos todos os arquivos e pastas para serem ignorados pelo git.
+
+criar um arquivo chamado .gitignore
+nano .gitignore = colocar o nome dentro do arquivo para ocultar
+
+la -l  mostra os arquivos e pastas
+ls -la == Mostra os arquivos e pastas ocultos 
+whoami ==> Mostra o usuário
+
+---------------------------------------------
+Versionamento na máquina local
+
+git commit -m "Descrição do que foi realizado"
+git add . ==> Para a pasta toda
+git add nome do arquivo ==> para somente o arquivo em específico
+git status = Somente para 
+---------------------------------------------
+Versionamento no Git Hub
+
+Mudando o nome do repositório de master para main
+git branch -M main
+
+git vou adicionar o repositótio remotamente
+git remote add origin https://github.com/SamuelGoulart/ds1m
+
+versionando para o guit hub "push"
+git push origin main
+
+------------------------------------------------
+Fazendo um pull (Puxar) o repositório
+
+git init
+git remote add origin https://github.com/SamuelGoulart/ds1m
+git pull origin main
+
+
+

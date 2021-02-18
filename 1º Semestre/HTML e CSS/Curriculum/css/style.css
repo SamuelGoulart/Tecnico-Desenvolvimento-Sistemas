@@ -1,0 +1,162 @@
+
+body{
+    max-width: 1200px;
+    height: 1050px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 4px #0b1829;
+}
+/* ************** Cabeçalho ************************** */
+#cabecalho{
+    background-color: #0b1829;
+    width: 100%;
+    height: 150px;
+    float: right;
+}
+
+#titulo{
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+    margin-left: 26%;
+
+}
+#subTitulo{
+    text-align: center;
+    color: white;
+    margin-left: 26%;
+
+
+}
+/* ***************************************************** */
+/* ***********************  Main *********************** 
+Histórico Profissional
+Formação Acadêmica
+*/
+#main{
+    float: right;
+    width: 73%;
+}
+.tituloMain{
+   margin-left: 95px;
+    
+}
+.hrmain{
+    background-color: #0b1829;
+    margin-left: 105px;
+    height: 2px;
+}
+.iconeMain{
+    width: 42px;
+    margin-top: -50px;
+    margin-left: 40px;
+    
+}
+
+.dadosMain{
+    color: black;
+    font-size: 1.3em;
+    padding-left: 65px;
+}
+#linhaVertical{
+    width: 3px; 
+    height: 250px; 
+    background-color: #0b1829; 
+    margin: -20px 0px 55px 60px;
+}
+.circuloDaLinhaVertical{
+    background-color: #0b1829;
+     width: 18px; 
+     height: 18px; 
+     border-radius: 100%; 
+     margin-left: -7px; 
+     margin-top: 15px; 
+     
+}
+.campoFormacaoAcademica{
+    width: 780px; 
+    margin-left: 25px; 
+    margin-top: -30px;
+}
+.ano{
+    float: left; 
+    margin-top: 12px;
+}
+.pFormacaoAcademica{
+    font-size: 1.3em; 
+    padding-top: 0px; 
+    margin-left: 20px;
+}
+.divFormacaoAcademica{
+    width: 694px;  
+     float: right;
+      margin-top: -11px; 
+}
+
+.preenchimento{
+    margin-top: 92px;
+}
+
+#cursosExtracurriculares{
+    margin-left: 40px; 
+    font-size: 1.3em; 
+}
+/* *************** Navegação lado Esquerdo *********************** */
+/* Estilização dos icones de Objetivo, Endereço, Telefone, Gmail, linkiedin e Guithub*/
+#navegacao{
+    width: 25%;
+    background-color: #0b1829;
+    float: right;
+    height: 905px;
+}
+.icone{
+    width: 32px;
+    float: left;
+    margin-left: 15px;
+    
+}
+/* Estilização do Icone do Whatsapp */
+#iconeWhatsapp{
+    float: right; 
+    margin-right: 56px !important; 
+    margin-top: -8px;
+}
+
+/* Estilização do hr */
+.hrNegacao{
+    margin-left: 15px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+
+}
+.tituloObjetivo{
+    color: white;
+    margin-left: 65px;
+    font-size: 1.3em;
+ 
+}
+.marginTop{
+    margin-top: 16px;
+}
+.tituloRedesSocias{
+    color: white;
+    margin-left: 15px;
+    margin-bottom: -8px;
+}
+.pInformacaos{
+    color: white;
+    font-size: 1.3em;
+    padding-left: 65px;
+    margin-top: 14px;
+   
+}
+.pnavegacao{
+    color: white;
+    font-size: 1.1em;
+    margin-left: 68px;
+    
+}
+a{
+    color: white;
+}
+/* *************** Fim do Código Navegação lado Esquerdo ******************* */

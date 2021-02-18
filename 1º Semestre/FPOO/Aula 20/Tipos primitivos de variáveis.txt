@@ -1,0 +1,58 @@
+*** Tipos primitivos de variáveis
+
+*** Númericos para números inteiros
+
+byte
+short
+int
+long
+
+** Núméricos para números decimais
+
+float
+double
+
+** Outros tipos de variáveis primitivos
+
+char => character => caracter -> letra/número/especiais
+
+Exemplos:
+
+letras: a, c c, ...
+número: 7, 5 ....
+especiais: @, #, $, %, *, ...
+
+Como criar uma variáveis
+
+char letra = 'a';
+ 
+* haspas " "   ==> haspas duplas
+* apóstrofo '' ==> haspas simples
+
+String nome = "Ana Maria";
+
+char exemplo = 'ab'; Isso está errado, só pode guardar uma letra.
+
+*************************************************************************
+
+Métodos da classe string
+
+String nome = "Ana Maria";
+String frase = "O rato roeu a roupa do rei de Roma";
+
+nomeQualquer() => faz algo
+
+** Método da classe String: length()
+
+nome.length()
+
+frase
+
+* Length ==> comprimento da string, retorna a quantidade de caracteres de uma string.
+
+** Exemplo:
+
+String nome ="Ana";
+System.out.println(nome.length());
+
+*********************************************************************

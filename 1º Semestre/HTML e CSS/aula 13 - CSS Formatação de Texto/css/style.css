@@ -1,0 +1,109 @@
+.titulo {
+    /* Troca a cor da letra (Hexadecimal, inglês ou RGB) */
+    color: brown;
+    /* Troca o tipo da letra */
+    font: arial;
+    /*Permite trocar o tipo da letra, com opçôes. caso uma não fincione a próxima é adotada */
+    font-family: cursive, arial, verdana, "times new roman";
+    /* Troca o tamanho da letra(unidades de medidas pt, px, em) */
+    font-size: 2em;
+    /* Permite fazar alinhamento do texto(left, center, right e justify) */
+    text-align: center;
+    /* Negrito */
+    font-weight: bold;
+    /* Italico */
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration: line-through;
+    /* Retira o sublinhado do link */
+    /* text-decoration: nome; */
+    /* Aplica formatação MAIUSCULO e minusculo 
+       uppercase = maiusculo
+       lowercase = minusculo
+    */
+    text-transform: capitalize;
+    /* Aplica espaçamentos entre as letras */
+    letter-spacing: 5px;
+    /* Aplica espaçamentos entre as palvras */
+    word-spacing: 10px;
+    /* Permite colocar sombreamento no Texto */
+    text-shadow: 20px 10px 30px red;
+}
+
+.texto {
+    font-family: cursive;
+    font-size: 1.2em;
+    /* Aplica espaços entre as linhas do texto */
+    line-height: 1.5;
+}
+
+.destaque {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+strong {
+    color: blue;
+}
+
+span {
+    color: forestgreen;
+}
+
+
+/* Exemplos do Pseudo Elementos para formatar textos */
+
+
+/* p::first-letter, p, span -> Exemplo para compartilhar a mesma formatação */
+
+
+/* Aplica a formatação apenas na primeira linha de cada parágrafo */
+
+p::first-letter {
+    font-size: 100em;
+    color: red;
+    font-family: arial;
+}
+
+
+/* Aplica a formatação apenas na primeira linha de cada parágrafo */
+
+p::first-line {
+    color: chocolate;
+}
+
+
+/* Aplica a formatação ao selecionar um conteúdo escrito no parágrafo */
+
+p::selection {
+    color: green;
+    background-color: black;
+}
+
+
+/* Bordas */
+
+.caixTitulo,
+.caixaTexto {
+    width: 250px;
+    height: 40px;
+    border: solid 2px #0000;
+    background-color: bisque;
+}
+
+.caixaTexto {
+    width: auto;
+    height: auto;
+    border-left: dotted 2px red;
+    border-top: double 5px orange;
+    border-right: dashed 2px green;
+    border-bottom: solid 2px blue;
+}
+
+.caixaTitulo {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 50px;
+}

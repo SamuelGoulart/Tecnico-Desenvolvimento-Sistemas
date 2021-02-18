@@ -1,0 +1,59 @@
+Atividade: Criar uma estrutura de arquivos pelo Prompt de Comando da seguinte forma:
+ Segurança do Trabalho e dentro fazer:
+ Proteção dos Olhos
+ Proteção dos Ouvidos
+ Proteção dos Pés
+ Trabalho em Altura
+ Proteção no Ambiente de TI
+ Uma pesquisa de um parágrafo sobre cada tema, porém os arquivos devem ser criados por meio de comandos do Prompt apenas
+
+
+mkdir "Segurança do Trabalho"
+
+cd "Segurança do Trabalho"
+
+mkdir "Trabalho em altura"
+mkdir "Proteção dos Olhos"
+mkdir "Proteção dos Pés"
+mkdir "Proteção dos Ouvidos"
+mkdir "Proteção no Ambiente de TI"
+cd "Proteção dos Olhoscomando 
+ 
+Comando--> Tree 
+
+Tree (árvore em português) é comando do MS-DOS que exibe graficamente a árvore de diretórios e arquivos. a partir do diretório-raiz para que o usuário tenha a organização hierárquica do seu disco.
+Cria um arquivo txt = nul "trabalho em altura.txt"
+Mostra a estrutura de arquivos da pasta= tree
+
+*********************************************************************
+Criando um arquivo .txt através do cmd
+
+Exemplo:
+
+Usa o comando--> copy con
+Exemplo:
+c:\Users\samue_000\teste>copy con nomedoarquivo.extensão
+Ele vai pular para a linha de baixo.
+Escreva o texto que desejar
+Qundo terminar ctrl + c, para terminar.
+
+           OU
+
+comondo--> echo
+Exemplo:
+c:\Users\samue_000\teste>echo Escrevo é que eu quiser >NomeDoArquivoQueQueroCriar.extenção
+Teve colocar o sinal de maior ">" para ele saber que o nome do arquivo
+
+***********************************************************************
+Acessando o arquivo .txt criado
+
+Exemplo:
+Comando notepad nomedoarquivo.extensão
+	
+c:\Users\samue_000\teste>notepad aaa.txt
+ 
+Comando para colar texto no pront comando texto ou colocar texto dentro de arquivo:
+
+
+
+

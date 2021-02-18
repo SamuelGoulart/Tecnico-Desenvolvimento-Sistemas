@@ -1,0 +1,18 @@
+Client Side - Rota no lado do cliente.
+Front-end: HTML, CSS, JAVASCRIPT
+
+Server Side - Rota no lado do servidor.
+
+
+MONOLÍTICAS
+Back-en e Frond-end no mesmo arquivo e servidor
+PHP
+
+BASEADAS EM API
+Node.js
+Talves -JAVA - API
+
+
+
+Pesquisar
+Quais as diferenças entre tipagens: estática ou dinâmica e forte ou fraca

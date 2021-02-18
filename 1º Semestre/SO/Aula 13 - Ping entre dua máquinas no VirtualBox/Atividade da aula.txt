@@ -1,0 +1,31 @@
+Conexão entre maquinas virtuais no VirtualBox, atráves de ping
+
+----------------------------------------------------------
+Primeira Atividade:
+
+- 1G de RAM
+- 25G de HD
+1-Criaremos uma rede entre duas máquinas Windows xp
+
+1 máquina
+- 192.168.0.2 
+- 255.255.255.0
+  
+2 máquina
+- 192.168.0.10
+- 255.255.255.0
+
+--------------------------------------------------------
+Atividade final
+com:
+-1G de RAM
+-10G de HD
+
+1-Criaremos uma rede entre duas máquinas Ubuntu
+-configuração de IP e máscara
+
+- 192.168.0.3 
+- 255.255.255.0
+
+- 192.168.0.4
+- 255.255.255.0

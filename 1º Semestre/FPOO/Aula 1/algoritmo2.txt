@@ -1,0 +1,91 @@
+﻿Algoritmo
+
+Passo à passo (preciso) para a resolução de um problema.
+
+Sequência finita de passos ou instruções que informa uma série de ações onde, a partir de um ou mais valores iniciais (entrada), obtém-se um ou mais valores finais (saída).
+
+* entrada: ingredientes/materia prima/dados (informações)
+
+* processamento: Algoritmo
+
+* saída: resultado final/produto
+
+************************************************
+
+** Técnicas algoritmicas
+
+ * Descrição narrativa
+ * Diagrama de blocos (fluxograma)
+ * Português estruturado (Portugol/Pseudo-código) 
+     Portugol Studio
+
+************************************************
+
+* Descrição narrativa
+
+Problema: Calcular a média aritmética entre duas notas.
+
+[Entender o problema]
+
+Entrada: nota1, nota2
+
+Processamento (Algoritmo)
+
+1º Obter as duas notas;
+
+2º Somar o valor das duas notas;
+
+3º Dividir por dois o resultado do passo anterior;
+
+4º Exibir (entregar) o resultado.
+
+
+Saída: Média aritmética
+
+*********************************************
+Exercício 
+
+Elaborar um algoritmo na forma de “Descrição narrativa” para cada um dos casos: 
+
+1. Calcular a área de um retângulo; [base * altura] 
+
+2. Calcular a área de um  triângulo; [base * altura / 2] 
+
+3. Calcular o perímetro de uma circunferência; [2 * π ∗ r] 
+
+4. Transforme a idade em segundos; [idade * 365 * 24 * 60 * 60] 
+
+
+*********************************************
+Problema 1: Calcular a área de um retângulo;
+
+Entrada: valor da base, valor da altura
+
+Processamento: (Algoritmo)
+
+1º Obter os valor das medidas da base e altura 
+
+2º Multiplicar o valor da medida da base pelo valor da medida da altura;
+
+3º Exibir o resultado.
+
+
+Saída: Valor da área do retângulo.
+
+*********************************************
+
+Problema 2: Calcular a área de um triângulo;
+
+Entrada: valor da base, valor da altura
+
+Processamento: (Algoritmo)
+
+1º Obter os valor das medidas da base e altura 
+
+2º Multiplicar o valor da medida da base pelo valor da medida da altura;
+
+3º Dividir o resultado do passo anterior por dois;
+
+4º Exibir o resultado.
+
+Saída: Valor da área do triângulo.

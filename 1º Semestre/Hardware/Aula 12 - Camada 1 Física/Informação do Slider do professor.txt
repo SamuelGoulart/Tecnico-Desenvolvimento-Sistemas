@@ -1,0 +1,30 @@
+Meio de transmissão 
+Guiado
+Cabo de par trançado
+Fibra óptica
+Comunicação com fio
+
+Não Guiado
+Wi-fi
+Comunicação sem fio
+
+NIC --> É Placa de rede
+Cabo coaxial ---> É um meio de transmissão,a antigo, mas algumas empresas usam hoje em dia.
+
+Cobo de Par Trançado --> O mais usado atualmento.
+Cobo UTP --> Não tem blindagem
+Cabo FTP -->
+Cabo STP -->
+Cabo SSTP -->
+
+Equipamento de ifra-estrutura
+KEYStone
+Patch panel
+Alicate para crimpar
+
+Fibra Óptica
+
+Luz como meio de transmisão
+Imune a Interferência Eletromagnética 
+
+

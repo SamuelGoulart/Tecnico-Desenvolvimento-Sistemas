@@ -1,0 +1,56 @@
+Classe
+ Toda classe, possui atributos ==> propriedades, e métodos
+
+String frase ="Bom dia";
+
+String é uma classe, frase é um objeto que possui atributos.
+
+int n =10;
+Não possui atributos
+
+-------------------------------------------------------------------------------------
+     Estrutura de repetição
+Laços / Loops
+for [para]
+while [enquanto]
+do while
+
+true  ==>verdadeiro
+false ==>falso
+
+Sempre que vamos fazer estrutura de repetição usamos operadores relacionais.
+
+Operadores de incremento
+++ incremento
+-- decremento
+
+
+for ==> É conhecida a quantidade de repetição
+while ==> Não se conhece a quantidade de repetiçôes
+
+for(inicialização;        teste lógico;       atualização)
+    inicio da contagem    Final da contagem     passo
+        int i = 0            i < 9               i = i + 1
+                                                 i = i++
+
+
+1...4
+
+for (int i=1;  i <=4; i++){
+  System.out.println(i);
+}
+
+1Inicialização
+2Teste lógico
+3Se teste "Verdadeiro"
+4Executa bloco do "for"
+5Atualização
+
+
+variáveis locais e globais
+
+while int i = 0;
+wihle(i <= 10){
+  System.out.println(i);
+  i = i +2;
+}

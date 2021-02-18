@@ -1,0 +1,96 @@
+﻿
+Entrada de dados em Java
+
+* Sistema computacional 
+
+Entrada ==> Processamento ==> SaÃ­da
+
+* Em modo / Em modo grÃ¡fico
+
+** Classes da biblioteca do Java
+
+Java possue uma vasta biblioteca de classes
+
+Onde estÃ£o essas classes?
+
+R: EstÃ£o separadas e organizadas em pacotes.
+
+** Pacote especial chamado "java.lang" ==> Todas as classes que estÃ£o dentro desse pacotes podem ser usadas diretamente.
+
+Math.sqrt(25)
+System.out.println("OlÃ¡ turma DS1-M")
+
+*********************************************
+
+Classes que estÃ£o em outros pacotes
+
+Como fazer para utilizar classes de outros pacotes?
+
+1Âº Importar classe
+
+import java.util.Scanner;
+
+2Âº Criar um objeto dessa classe, instanciaÃ§Ã£o [criar uma instÃ¢ncia de uma classe]
+
+3Âº Utilizar os mÃ©todos do objeto que Ã© instÃ¢ncia da classe.
+
+* MÃ©todos => AÃ§Ã£o, finalidade especÃ­fica.
+* MÃ©todos da classe Scanner [classe Scanner possue mÃ©todos especialiados na entrada de dados via teclado em modo texto]
+
+next() -> lÃª uma palavra
+nextLine() -> lÃª uma frase
+
+nextByte()      ->  lÃª palavra e converte para byte
+nextShort()     ->  lÃª palavra e converte para short
+nextInt()       ->  lÃª palavra e converte para int
+nextLong()      ->  lÃª palavra e converte para long
+nextFloat()     ->  lÃª palavra e converte para float
+nextDouble()    ->  lÃª palavra e converte para double
+
+=> SÃ³ podem receber string numÃ©rica
+
+** Texto ==> string, Ã© escrito entre haspas.
+
+* strings literais [texto]: "Bom dia turma"
+* strings numÃ©ricas [nÃºmero]: "7850"
+* strings alphanumÃ©rica: "turma ds1-m", "abc123"
+
+
+*** Exemplo de Entrada de dados em modo texto
+
+// Criar um programa que calcula a mÃ©dia aritmÃ©tica entre // duas notas
+
+// Entrada de dados em modo texto => classe Scanner
+// Classe Scanner pertence ao pacote java.util
+
+import java.util.Scanner;
+
+class Media {
+  public static void main(String args[]) {
+    Scanner ler = new Scanner(System.in); 
+    System.out.print("Digite a primeira nota: ");
+    double nota1 = ler.nextDouble();
+    System.out.print("Digite a segunda nota: ");
+    double nota2 = ler.nextDouble();
+    
+    double media = (nota1 + nota2) / 2;
+    
+    System.out.println("\nMÃ©dia: " + media);    
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

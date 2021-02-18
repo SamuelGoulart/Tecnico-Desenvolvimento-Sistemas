@@ -1,0 +1,33 @@
+Camada 3 - Rede
+
+-Endereçamento lógico
+-Roteamento
+-Pacote
+-IP
+-Roteador
+
+IPV4 - 32bits 
+- É decimal
+- Quantidade de ips disponíveis 4.294.967.286, um pouco mais de  4 bilhões
+- A conta é 2 elevado a 32 
+- O 2 é porque o computador é base 2, isso é 0 e 1
+- 4 octetos
+- NAT 
+O que é?
+ Todos os equipamentos da minha rede vão usar um mesmo ip (ip público) para se conectar na internet, ao invés que cada um usar um ip (público) para navegar.
+
+Exemplo de redes
+
+m1 - 192.168.10.4
+m2 - 192.169.10.3
+m3 - 192.168.11.3
+
+Para as três máquimas está na mesma rede devem ter os 3 primeiros octetos igual
+
+IPV6 - 128bits 
+- É Hexadecimal
+- Quantidade de ips disponíveis 340,282,366,920,938,463,463,374,607,431,768,211,456 , um mais de  340 undecilhões 
+- A conta é 2 elevado a 128 
+- o 2 é porque o computador é base 2, isso é 0 e 1
+- 8 Quartetos
+- NAT não existe

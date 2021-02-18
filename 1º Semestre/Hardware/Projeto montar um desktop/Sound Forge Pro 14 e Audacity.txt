@@ -1,0 +1,51 @@
+Audacity
+
+Para que serve?
+gravação e edição de áudio
+
+Fonte:https://www.audacityteam.org/download/windows/
+
+Versão Atual: 2.4.2
+
+Versão do Windows: Windows 10 (32 ou 64 bits)
+
+Requisitos minimos do sistema:
+
+Velocidade do processador: 1 GHz
+
+Mémoria RAM:2 GB
+
+Requisitos recomendados:
+
+Velocidade do processador:
+2 GHz
+
+Mémoria RAM: 4 GB
+
+*************************************************
+Sound Forge Pro 14
+
+Para que serve?
+Edita e cria áudio digital
+
+Fonte:https://www.magix.com/us/music/sound-forge/sound-forge-pro/specifications/#c1201487
+
+Requisitos minimos do sistema:
+
+Velocidade Processador: 1 GHz 
+Mémoria RAM: 512 MB 
+
+Placa gráfica: Onboard, mín. resolução 1024 x 768
+ 
+Placa de som: Onboard 
+
+Espaço no disco rígido: 500 MB 
+
+Requisitos recomendados:
+
+Não achei no Site do Fabricante.
+
+
+
+
+

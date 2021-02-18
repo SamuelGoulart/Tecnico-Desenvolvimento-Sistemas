@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#imagemFundo{
+    width: 100%;
+    height: 600px;
+    background-color: aquamarine;
+    /* Permite colocar uma imagem no fundo */
+    background-image: url(../imagens/galaxia.jpg);
+
+    /* Só funciona as propriedade abaixo, para imagens de fundo  */
+
+    /* Permite manipular a repetição da imagem de fundo */
+    /* A imagem de fundo não se repeti */
+    background-repeat: no-repeat;
+
+    /* Permite posicionar a imagem a fundo */
+    /* Pode usar as própriedades left, center, right */
+    background-position:center center;
+
+    /* Permite manipular o tamanho da imagem */
+    /* Permite ajustar o tamanho da imagem(valores px ou % ou usando contain ou cover)*/
+      background-size: cover ; 
+
+    /* Permite fixar a imagem no fundo, trazendo um efeito de 3D na rolagem da página */
+      background-attachment: fixed;
+}
+#texto, #texto2{
+    width: 1200px;
+    height: 700px;
+    background-color: rgb(251, 178, 151);
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: Verdana;
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
+#imagemFundo2{
+    width: 100%;
+    height: 600px;
+    background-image: url(../imagens/lobo.jpg);
+    background-position:  center center;
+    background-size: cover;
+
+    /* Permite fixar a imagem no fundo, trazendo um efeito de 3D na rolagem da página */
+    background-attachment: fixed;
+}
+
+.foto{
+    width: 200px;
+    height: 200px;
+    border: solid 5px #000000;
+    border-radius: 80px;
+
+     /* Permite trabalhar  com a trasparencia de um elemento */
+    opacity: 0.5;
+}

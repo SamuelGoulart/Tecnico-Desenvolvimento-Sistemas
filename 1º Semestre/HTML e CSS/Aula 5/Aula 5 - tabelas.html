@@ -1,0 +1,78 @@
+<html>
+    <head> 
+        <title>Aula 05 - Tabelas</title>
+    </head>
+   
+    <body>
+<!-- 
+    <table> Representa a criação de uma tabela 
+    <tr> Representa a criação da linha dentro da tabela
+    <td> Representa a criação da coluna dentro da tabela
+
+        Atributos 
+        <table width - permite alterar a largura da tabela
+               height - permite alterar a altura
+               border - permite colocar a borda na tabela
+               align - permite alinhar a tabela (left, center, right)
+               backgroud - permie colocar uma imagem no fundo
+               cellpadding - permite alterar as margens internas de cada celula
+               cellspacing - permite ajustar os espaços entre cada celula
+
+        <tr    height - permite alterar a altura
+               valign - permite alinhar o conteúdo de todas as células da linha verticalmente (top, middle, bottom)
+               bgcolor - permite trocar a cor de fundo de todas as células da mesma linha
+               backgroud - permie colocar uma imagem de fundo nas células da mesma linha
+
+        <td Width - permite alterar a largura de uma célula (quando alteramos o tamanho de uma coluna, nas outras linhas também irão mudar)
+                align - permite alterar o alinhamento em cada célula
+                valign - permite alterar o alinhamento 
+                bgcolor - permite trocar a cor de fundo de todas as células da mesma colona
+                colspan - permite fazer mesclagem de células (Não esquecer de apagar as células que foram mescladas)
+                rowspan - permite fazer mesclagem de células em linhas diferentes
+
+
+
+
+ -->
+
+
+        <table width="350" height="150" border="1" align="center" cellpadding="40" cellspacing= > 
+            <tr height="150" > <!-- Linha 1 da tabela  -->
+                <td width="300" ><!-- Coluna 1 da Linha  1 tabela  -->
+                    <center>
+                       <img src="saopaulo.jpg" alt="">
+                     </center>
+                </td>
+                <td width="300"> <p align="center"> <font face="verdana" size="3" color="#1c217a" > Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                     Neque quas laborum, iste adipisci officiis itaque suscipit asperiores quos delectus sed,
+                      deserunt reiciendis exercitationem architecto minus tempora impedit vel sunt voluptatum?</p></font>
+                </td><!-- Coluna 2 da Linha  1 tabela  -->
+            </tr>
+            <tr height="150" valign="bottom" > <!-- Linha 2 da tabela  -->
+                <td width="300" >
+                    <p align="center"> <font face="verdana" size="3" color="#1c217a" > Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Neque quas laborum, iste adipisci officiis itaque suscipit asperiores quos delectus sed,
+                         deserunt reiciendis exercitationem architecto minus tempora impedit vel sunt voluptatum?</p></font>  
+                </td><!-- Coluna 2 da Linha 2 tabela  -->
+                <td width="300" >
+                    <center> 
+                        <img src="alemanha.png" alt=""> 
+                    </center> 
+                </td>
+            </tr>
+
+            <tr height="300" >
+                <td width="300" colspan="2" >
+                </td>
+            </tr>
+            <tr height="150" >
+                <td width="300" rowspan="2" ></td>
+                <td width="300" ></td>
+            </tr>
+            <tr height="150" >
+                <td width="300" ></td>
+               
+            </tr>
+        </table>
+    </body>
+</html>

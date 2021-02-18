@@ -1,0 +1,10 @@
+Largura de Banda - O Máximo que pode ser tranfêrido da sua rede de conexão (Bits)(bps)
+Taxa de Tranferência - O que de fato está sendo transferedido(Bytes)(b/s)
+Latência
+
+Gateway- da acesso a internet
+Comando no Cmd
+tracert www.google.com.br
+Rastreandoamento de quantos rodeador vai pular até chegar no site que digitou
+
+samuel.a.goulart@gmail.com

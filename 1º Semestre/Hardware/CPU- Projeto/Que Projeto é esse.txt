@@ -1,0 +1,24 @@
+Foi distribuido os componentes é periféricos para pesquisa, em grupos, o meu grupo ficou de falar da CPU.
+
+O que era para ser pesquisado?
+História
+Tipos
+Marcas / Modelos
+Exemplo para um dispositivos
+Preço / Lojas
+
+Componentes e periféricos que foi distribuido para pesquisa entre os grupos.
+
+1) cooler
+2) CPU --> Meu grupo pegou esse componente
+3) RAM
+4) Dispositivo de armazenamento
+    Disquete \ CD \ DVD
+    HD / SSD 
+    Pendrive / SD
+5) Placa Mãe
+6) Placa de video
+7) Fonte
+8) Gabinete
+9) Periféricos (Mouse, teclado, headset, webcan)
+10) Minitor

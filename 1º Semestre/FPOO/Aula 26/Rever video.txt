@@ -1,0 +1,7 @@
+35 minutos
+51 minutos
+57 minutos String = corda
+1:28 minutos
+3:35 minutos return
+3:50 minutos
+int, double, float para guardar números

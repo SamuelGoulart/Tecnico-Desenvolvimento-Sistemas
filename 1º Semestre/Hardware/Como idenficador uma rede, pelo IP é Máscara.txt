@@ -1,0 +1,8 @@
+Os dois primeiros octetos do ip definiem a rede
+
+Rede Rede Host  Host
+150 . 30  .  0 .   1
+
+Os 3 primeiros octetos da mascara definem a rede.
+Rede  Rede  Rede
+255.  255.   0.    0

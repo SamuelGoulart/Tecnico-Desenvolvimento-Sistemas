@@ -1,0 +1,35 @@
+Entrada de dados
+
+Classe: JOptionPane 
+
+Métodos:
+
+Entrada de dados: showInputDialog()
+show   : mostrar
+input  : entrada
+dialog : diálogo [caixa de diálogo => janela]
+
+* Saída de dados: 
+
+
+**Método showInputDialog() sempre retorna texto.
+
+** Métodos de conversão de dados [parse]
+
+Byte.parseByte()    => converte de texto para byte
+Short.parseShort()  => converte de texto para short
+Integer.parseInt()  => converte de texto para int
+Long.parseLong()    => converte de texto para long
+Float.parseFloat()  => converte de texto para float
+Double.parseDouble()=> converte de texto para double
+
+**Classe associada aos tipos primitivos
+
+Pacote: java.lang
+
+byte   => Byte
+short  => Short
+int    => Integer
+long   => Long
+float  => Float
+double => Double

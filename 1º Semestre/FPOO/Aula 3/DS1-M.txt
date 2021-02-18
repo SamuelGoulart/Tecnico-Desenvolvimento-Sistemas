@@ -1,0 +1,127 @@
+﻿ 
+ALEXIA DA SILVA GOMES
+DANIEL BLESA LIMA                   ** Desistitente **
+HERICK ANDERSON DOS SANTOS
+JEAN HENRIQUE CARVALHO JANUARIO
+JOSE GUILHERME DE CARVALHO CAMPOS
+THAMIRES GAUDENCIO AMÂNCIO
+VAGNER AUGUSTO DOS SANTOS LIMA
+
+
+Linguagens de programação
+
+* Compiladas  [Compilador]
+
+Assembly, C/C++, Go, Fortran, Pascal, ...
+
+
+* Interpretadas [Interpretador] script
+
+Basic, Python, Ruby, Shell script [Nativo Linux], ...
+
+
+***********************************************
+
+Construir um programa
+
+Utilizar as instruções de uma Linguagem de programação
+
+Instruções? Ação / Verbo
+
+Informe;
+conte;
+avance;
+exiba;
+
+
+* Qual a linguagem que o processador entende?
+
+Responsável pela execução de toda as instruções.
+
+* Linguagem de máquina. [Numérica - binário]
+
+Linguagens de programação
+
+* Compiladas  [Compilador]
+
+Assembly, C/C++, Go, Fortran, Pascal, ...
+
+
+* Interpretadas [Interpretador] script
+
+Basic, Python, Ruby, Shell script [Nativo Linux], ...
+
+
+***********************************************
+
+Construir um programa
+
+Utilizar as instruções de uma Linguagem de programação
+
+Instruções? Ação / Verbo
+
+Informe;
+conte;
+avance;
+exiba;
+
+
+* Qual a linguagem que o processador entende?
+
+
+Responsável pela execução de toda as instruções.
+
+
+* Linguagem de máquina. [Numérica - binário]
+
+
+
+Compilador/Interpretadores -> Converter o código fonte em linguagem de máquina.
+
+
+* Compilador [Características]:
+
+1. Enquanto o código fonte não estiver completamente sem erros sintáticos, a gente não consegue se quer ver a cara do programa.
+
+2. Arquivo executável gerado não tem portabilidade para outras plataformas de sistema operacional.
+
+3. Arquivo executável gerado pode ser executado em outros computadores independente de ter o compilador instalado.
+
+
+* Interpretador
+
+1. O código fonte não precisa estar 100% sem erros de sintaxe para executado.
+
+2. Portabilidade: O mesmo código fonte pode ser executado em qualquer computador que tenha qualquer sistema operacional, desde que o o programa interpretador esteja instalado.
+
+3. Para executar um programa criado utilizando uma linguagem interpretada precisa ter o interpretador instalado.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

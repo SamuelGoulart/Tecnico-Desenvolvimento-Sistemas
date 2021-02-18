@@ -1,0 +1,182 @@
+﻿***************************************************************************************
+Observação: Abrir o arquivo no VISUAL STUDIO CODE, E USAR CTRL + P, PARA LOCALIZAR AS PERGUTAS,
+NORMALMENTE ELES EMBARALHA AS QUESTÔES, LOGO QUESTÃO 1 NÃO VAI SER A 1 PARA VOCÊ.
+
+***************************************************************************************
+
+
+ Pergunta 1
+2 / 2 pts
+Qual parâmetro de configuração IP fornece o endereço IP de um dispositivo de rede que um computador usaria para acessar a Internet?
+  gateway padrão
+  
+
+Refer to curriculum topic: 2.1.2
+Os tipos de configuração IP em um dispositivo de host incluem:
+
+    Endereço IP – identifica o host na rede.
+    Máscara de sub-rede - identifica a rede em que o host está conectado.
+    Gateway padrão – identifica o dispositivo de redes que o host usa para acessar a Internet ou outra rede remota.
+    Servidor DNS - identifica o servidor usado para traduzir um nome de domínio em um endereço IP.
+
+ 
+Pergunta 2
+2 / 2 pts
+Que tipo de cabo de rede é usado normalmente em redes de backbone e em companhias telefônicas?
+  cabo de fibra ótica
+
+
+Refer to curriculum topic: 2.3.1
+Os cabos de fibra ótica podem transportar volumes de dados muito grandes e são usados amplamente pelas companhias telefônicas e em redes de backbone.
+ 
+Pergunta 3
+2 / 2 pts
+Uma rede sem fio foi instalada recentemente em uma cafeteria, e dispositivos móveis clientes não estão recebendo informações de configuração de rede. O que deve ser corrigido para solucionar o problema?
+ 
+Correto!
+  Certificar-se de que o servidor DHCP está funcionando.
+
+Refer to curriculum topic: 2.1.2
+Os dispositivos de usuário final podem solicitar um endereço de um pool de endereços mantido por um servidor DHCP.
+ 
+Pergunta 4
+2 / 2 pts
+Preencha a lacuna.
+Quando uma rede é instalada em uma escola de ensino médio, é importante que um administrador de rede crie um diagrama da topologia para documentar onde cada host está localizado e como eles estão conectados à rede.
+Resposta 1:
+físico
+
+Refer to curriculum topic: 2.2.1
+Um diagrama físico da topologia geralmente mostra onde o cabeamento está instalado, onde os dispositivos de rede estão localizados e como os dispositivos estão conectados.
+ 
+Pergunta 5
+2 / 2 pts
+Que tipo de cabo de rede é usado para conectar os componentes que compõem sistemas de comunicação via satélite?
+Correto!
+  coaxial
+  fibra óptica
+  par trançado blindado
+  par trançado não blindado
+
+Refer to curriculum topic: 2.3.3
+O cabo coaxial normalmente é usado para conectar vários componentes que compõem sistemas de comunicação e televisão a cabo via satélite.
+ 
+Pergunta 6
+2 / 2 pts
+Que tecnologia de conexão sem fio pode ser usada para conectar fones de ouvido sem fio a um computador?
+
+Bluetooth
+
+Refer to curriculum topic: 2.1.1
+Bluetooth é uma tecnologia de baixo consumo, sem fio e de curto alcance que fornece conectividade para acessórios como alto-falantes, fones de ouvido e microfones.
+ 
+Pergunta 7
+2 / 2 pts
+Que tipo de componente de rede é usado para interconectar dispositivos de computação?
+ 
+  dispositivo intermediário
+
+Refer to curriculum topic: 2.1.2
+Os dispositivos de rede estão localizados no caminho que as mensagens percorrem entre um host de origem e um host de destino e normalmente são chamados de dispositivos intermediários.
+ 
+Pergunta 8
+2 / 2 pts
+Que tipo de cabo de rede contêm vários fios de cobre e usa proteção extra para evitar a interferência?
+  STP
+ 
+
+Refer to curriculum topic: 2.3.2
+Os cabos de par trançado blindados (STP) contêm proteção adicional e geralmente são usados quando a interferência de EMI e RFI afetaria negativamente a transmissão de dados passando por um cabo de rede.
+ 
+Pergunta 9
+2 / 2 pts
+Quais são as três características do cabeamento UTP? (Escolha três.)
+
+  é suscetível à interferência eletromagnética e de frequências de rádio
+  é o tipo de cabo de rede mais fácil de instalar
+  é o cabo de rede mais usado
+
+Refer to curriculum topic: 2.3.2
+O cabeamento UTP normalmente é implantado em casas e em escolas. Este tipo de cabo é barato em relação a outros tipos de cabos e está prontamente disponível. Os cabos UTP são sensíveis à interferência eletromagnética (EMI).
+ 
+Pergunta 10
+2 / 2 pts
+Quais são duas fontes de interferência eletromagnética que podem afetar transmissões de dados? (Escolha duas.)
+ 
+  forno micro-ondas
+  luminária de luz fluorescente
+
+Refer to curriculum topic: 2.3.2
+A interferência eletromagnética ou IEM geralmente é causada por equipamentos como fornos micro-ondas e luminárias de luz fluorescente.
+ 
+Pergunta 11
+2 / 2 pts
+Que tipo de cabo Ethernet deve ser usado para conectar diretamente dois dispositivos que usem os mesmos pinos para transmitir e receber dados?
+  
+  cabo de par trançado cruzado
+
+Refer to curriculum topic: 2.3.4
+Os dispositivos que usam os mesmos pinos para transmitir e receber dados exigem o uso de um cabo cruzado para trocar dados com êxito.
+ 
+Pergunta 12
+2 / 2 pts
+Qual termo descreve a interface quando impulsos elétricos de um cabo cruzam para um cabo adjacente?
+
+  Crosstalk (diafonia)
+  
+
+Refer to curriculum topic: 2.3.2
+A interferência ocorre quando cabos estão agrupados por um grande comprimento e os impulsos elétricos de um cabo cruzam para um cabo adjacente
+ 
+Pergunta 13
+2 / 2 pts
+Que tipo de tecnologia é usada para fornecer transmissões de dados digitais em redes de celular?
+Correto!
+  4G
+
+
+Refer to curriculum topic: 2.1.1
+3G, 4G e 4G-LTE são tecnologias usadas para fornecer redes de celular avançadas capazes de transmitir dados com mais rapidez.
+ 
+Pergunta 14
+2 / 2 pts
+Quais são os dois esquemas de fiação definidos pela organização TIA/EIA para instalação de Ethernet em residências e escritórios? (Escolha duas.)
+Correto!
+  T568A
+  T568B
+ 
+
+Refer to curriculum topic: 2.3.4
+A organização TIA/EIA define os esquemas de fiação T568A e T568B para instalações típicas Ethernet. Cada esquema de fiação define a ordem das conexões de fios na extremidade do cabo.
+ 
+Pergunta 15
+2 / 2 pts
+Quais são os dois critérios usados para ajudar a selecionar um meio de rede para uma rede? (Escolha duas.)
+  a distância pela qual a mídia selecionada consegue carregar um sinal com êxito
+  o ambiente em que a mídia selecionada deve ser instalada
+
+Refer to curriculum topic: 2.3.1
+Os critérios para escolher um meio de rede incluem:
+
+    A distância pela qual o meio selecionado consegue carregar um sinal com êxito no ambiente em que o meio selecionado deve ser instalado
+    O volume de dados e a velocidade nos quais os dados devem ser transmitidos
+    O custo do meio sua instalação
+
+ 
+Pergunta 16
+2 / 2 pts
+Qual dispositivo de rede é usado para traduzir um nome do domínio para o endereço IP associado
+  Servidor DNS
+
+
+Refer to curriculum topic: 2.1.2
+Um servidor DNS é um dispositivo de rede usado para traduzir um nome de domínio para seu endereço IP. Um usuário identificará um site usando um nome de domínio, como www.cisco.com, e um servidor DNS irá traduzi-lo para um endereço IP associado.
+ 
+Pergunta 17
+2 / 2 pts
+Qual é a tecnologia usada em uma rede de celular?
+  
+  Global System for Mobile Communications (GSM)
+
+Refer to curriculum topic: 2.1.1
+O tipo mais comum de rede de celular é chamado de Global System for Mobile Communications ou rede GSM e transmite um sinal de voz de uma torre para outra, até que ele seja entregue a um destino.

@@ -1,0 +1,25 @@
+Processador:
+  Intel® Virtualization Technology (VT-x) 
+  Intel® Hyper-Threading Technology
+  Tecnologia Turbo Boost: 2.0
+
+Monitor:
+Tipo de Painel?: IPs
+
+Resolução Interpolada
+
+  ingresse no seu domínio
+Máquinas virtuais1
+
+
+Placa de video:
+ CUDA Cores 2176
+  Boost Clock (MHz) 1680
+
+Placa mãe:
+Chipset:
+
+- Processadores Intel Z490
+
+Uma fonte é nominal quando ela mostra 'uma certa' potência em Watts mas que nunca consegue atingir, e é real quando ela consegue entregar a potência declarada, mesmo que por um tempo não muito longo
+

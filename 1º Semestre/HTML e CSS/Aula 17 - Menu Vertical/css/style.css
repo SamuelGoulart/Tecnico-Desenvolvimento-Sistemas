@@ -1,0 +1,82 @@
+body, ul, li{
+    margin: 0px;
+    padding: 0px;
+}
+
+#caixaMenu{
+    width: 150px;
+    height: 300px;
+    background-color: #000000;
+}
+
+#menu{
+    width: 150px;
+    height: 300px;
+    
+
+}
+
+.menuItem{
+    width: 150px;
+    height: 35px;
+    color: #ffffff;
+   /* Tira a marcação da lista */
+    list-style: none;
+    font-family: Verdana;
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 15px;
+ 
+}
+
+.menuItem:hover{
+    background-color: darkorange;
+    color: #000000;
+    /* altera o tipo de cursos do mouse */
+    /* Keywords 
+    cursor: auto;
+
+     Usando URL e cordenadas 
+    cursor:  url(cursor1.png) 4 12, auto;
+    cursor:  url(cursor2.png) 2 2, pointer;
+
+    Valores globais 
+    cursor: initial;
+    cursor: progress;
+    cursor: unset;
+    cursor: inherit;
+
+    */   
+    cursor: pointer;
+
+    /* Criar um delay para executar os comandos */
+    transition: 1s;
+
+
+}
+
+.submenu{
+    width: 150px;
+    height: 300px;
+    background-color: aquamarine;
+
+    margin-left: 150px;
+    margin-top: -40px;
+}
+
+.submenuItem{
+    width: 150px;
+    height: 40px;
+    list-style: none;
+    font-family: cursive;
+    color: #000000;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.submenuItem:hover{
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 1s;
+}

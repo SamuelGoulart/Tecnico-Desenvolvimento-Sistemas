@@ -1,0 +1,4 @@
+Atividade após instalado o Ubuntu:
+Abrir o Writer
+E escrever passo a passo de como verificar as configuraçõees do ubuntu,
+deve escrever, quanto tem de memoria, hd e processador e nome do sistema

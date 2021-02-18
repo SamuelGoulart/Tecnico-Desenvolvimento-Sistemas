@@ -1,0 +1,14 @@
+﻿Ambiente de trabalho com JAVA
+
+* Compilador Java [Javac] 
+Pacote -> JDK [Java Development Kit]
+              [Kit de desenvolvimento em Java]
+
+* Interpretador Java [JVM]
+
+
+Para executar programas em Java
+
+* Interpretador Java [JVM] 
+Pacote -> JRE (Java Runtime Environment)
+              (Ambiente de execução em tempo real Java)

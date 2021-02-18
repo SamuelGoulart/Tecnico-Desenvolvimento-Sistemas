@@ -1,0 +1,67 @@
+body, ul, li{
+    margin: 0px;
+    padding: 0px;
+}
+
+#caixaMenu{
+    width: 600px;
+    height: 50px;
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu{
+    width: 600px;
+    height: 50px;
+}
+
+.menuItem{
+    width: 120px;
+    height: 50px;
+    /* Permite deixar os intens na horizontal */
+    float: left;
+    list-style: none;
+    color: #ffffff;
+    text-align: center;
+    font-family: verdana;
+    font-size: 1em;
+    padding-top: 15px;
+}
+
+.menuItem:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.submenu{
+    width: 120px;
+    height: 300px;
+    background-color: red;
+    margin-top: 15px;
+     /* Desaparece com o elemento */
+    display: none;
+}
+
+.submenuItem{
+    width: 120px;
+    height: 35px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15px; 
+    font-family: cursive;
+    font-size: 1em;
+    /* Desaparece com o elemento */
+}
+
+.submenuItem:hover{
+    background-color: #000000;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+
+.menuItem:hover > .submenu{
+    /* Faz aparecer o elemento */
+    display: block;
+}

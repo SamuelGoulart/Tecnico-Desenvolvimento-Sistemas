@@ -1,0 +1,170 @@
+
+.titulo{
+/*Troca a cor da letra (hexadecimal, ingles ou RGB) */
+    color: RGB(0,155,152);
+    
+/*Troca o tipo da letra    */
+    font: arial;
+    
+/*Permite trocar o tipo da letra, com opções. Caso uma não funcione a próxima é adotada    */
+    font-family: cursive, arial, verdana, "times new roman";
+    
+/*Troca o tamanho da letra (unidades de medidas pt, px, em)    */
+    font-size: 2em;
+    
+/* Permite fazer alinhamento do texto (left, center, right e justify)    */
+    text-align: center;
+
+/*Negrito    */
+    font-weight: bold;
+    
+/*Italico    */
+    font-style: italic;
+    
+/*  underline = sublinhado    
+    overline = sublinhado superior
+    line-through = risca a palavra
+    */
+    text-decoration: underline;
+    
+/* Retira o sublinhado do link   */
+/*    text-decoration: none;*/
+    
+    
+/* Aplica formatação MAIUSCULO e minusculo   
+    uppercase = maiusculo
+    lowercase = minusculo
+    capitalize = apenas a primeira letra de cada palavra
+    
+    */
+    text-transform: uppercase;
+    
+/* Aplica espaçamentos entre as letras    */
+    letter-spacing: 5px;
+    
+/* Aplica espaçamentos entre as palavras    */   
+    word-spacing: 10px;
+    
+/* Permite clocar sombreamento no texto   */
+    text-shadow: 20px 10px 30px red; 
+    
+}
+
+.texto {
+    font-family: cursive;
+    font-size: 1.2em;
+    
+/* Aplica espaços entre as linhas do texto   */
+    line-height: 1.5;
+}
+
+
+.destaque{
+    color: red;
+    font-weight: bold; /*<b>*/
+    text-decoration: underline;
+}
+
+strong{
+    color: blue;
+}
+
+span{
+    color: forestgreen;
+}
+
+
+
+
+/*Exemplos de Pseudo Elemento para formatar textos*/
+
+
+
+/*p::first-letter, p::first-line  - Exemplo de como compartilhar a mesma formatação com varios elementos*/
+
+
+/*Aplica a formatação apenas na primeira letra de cada paragrafo*/
+p::first-letter{
+    font-size: 1.7em;
+    color: darkorchid;
+    font-family: arial;
+}
+
+/*Aplica a formatação apenas na primeira linha de cada paragrafo*/
+p::first-line{
+    color: chocolate;
+}
+
+/*Aplica a formatação ao selecionar um conteudo escrito no paragrafo*/
+p::selection{
+    color: chartreuse;
+    background-color: #000000;
+}
+
+/*Bordas*/
+
+.caixaTitulo, .caixaTexto{
+/*    Largura o Elemento */
+    width: 250px;
+    
+/*    Altura do Elemento */
+    height: 40px;
+    
+/* Tipos de bordas   
+    
+    solid - borda solida
+    dashed - borda com traços
+    dotted - borda com pontos
+    double - borda dupla
+    groove - borda com efeito 3D
+    ridge - borda com efeito 3D
+    inset - borda com efeito 3D
+    outset - borda com efeito 3D
+    
+    
+    */
+    border: outset 10px red;
+    text-align: center;
+
+    /*Permite colocar cor de fundo no elemento */
+    background-color: bisque;
+}
+
+.caixaTexto{
+/*    auto = tamanho automatico*/
+    width: auto;
+    height: auto;
+    
+    border-left: dotted 2px red;
+    border-top: double 5px orange;
+    border-right: dashed 2px green;
+    border-bottom: solid 2px blue;
+}
+
+.caixaTitulo{
+    
+/*    radius - permite criar bordas arredondadas*/
+    
+/*    border-radius: 50px;*/
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 50px; 
+    border-bottom-right-radius: 30px; 
+    border-bottom-left-radius: 50px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
