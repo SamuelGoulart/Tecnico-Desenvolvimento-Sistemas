@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs HTML</title>
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-family: sans-serif;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+    </style>
+</head>
+<body>
+     <form>
+         <label for="nome" >Nome</label>
+         <input type="text" name="nome" id="nome" placeholder="Nome"  required >
+         <label for="idade">Idade</label>
+         <input type="number" id="idade" name="idade" placeholder="idade" >
+         <label for="email">E-mail </label>
+         <input type="email" id="email" name="email" placeholder="email">
+ 
+         <p style="margin-bottom: 0;" >Sexo</p>
+         <div>
+             <input type="radio" id="sexoM" value="M" name="sexo" >
+             <label for="sexoM">Masculino</label>
+         </div>
+         <div>
+             <input type="radio" id="sexoF" value="F"  name="sexo" >
+             <label for="sexoF">Feminino</label>
+         </div>
+         <div>
+             <input type="radio" id="sexo0" value="O"  name="sexo" >
+             <label for="sexoO">Outros</label>
+         </div>
+
+         <p style="margin-bottom: 0;" >Hobbys</p>
+         <div>
+             <input type="checkbox" id="cantar" name="cantar" value="sim">
+             <label for="cantar">Cantar</label>
+         </div>
+
+         <div>
+             <input type="checkbox" name="dancar" value="sim" id="dancar" >
+             <label for="dancar">Dançar</label>
+         </div>
+
+         <div>
+             <input type="checkbox" id="hobby" name="programar" value="sim" id="programar">
+             <label for="programar">Programar</label>
+         </div>
+         <button>Enviar</button>
+     </form>
+</body>
+</html>
